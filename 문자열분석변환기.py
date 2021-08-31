@@ -1,0 +1,11 @@
+sentence = input("문장을 입력 하세요 : ")
+
+print("문장은 ",sentence[1], " 로 시작 됩니다")
+print("문장은 ",sentence[-2], " 로 끝납니다")
+print("문장은 ",len(sentence), " 글자로 이루어져 있습니다")
+print("소문자로 변환된 문장 : ", sentence.lower())
+print("대문자로 변환된 문장 : ", sentence.upper())
+print("오른쪽 공백이 제거된 문장 : ", sentence.rstrip())
+print("왼쪽 공백이 제거된 문장 : ", sentence.lstrip())
+print("공백이 제거된 문장 : ", sentence.strip())
+print("단어가 바뀐 문장 : ", sentence.replace('START','JUMP'))
